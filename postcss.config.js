@@ -19,7 +19,8 @@ module.exports = {
     [
       'postcss-jit-props',
       {
-        ...OpenProps
+        ...OpenProps,
+        custom_selector: ':global'
       }
     ],
   ]
