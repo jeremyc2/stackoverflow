@@ -1,3 +1,8 @@
 .header {
-    background: var(--red-1);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: var(--size-8);
+    background: var(--gray-0);
+    box-shadow: var(--shadow-2);
 }
